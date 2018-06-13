@@ -1,29 +1,24 @@
 # Reverse Each Word
 
 ## Objectives
-
-1. Understand the return value of the each method
-2. Use the .collect method
-3. Understand the return value of the .collect method
-4. Use the return of collect for further operation
+1. Practice using enumerators like the `.collect` method
+2. Practice converting between strings and arrays
 
 ## Instructions
 
-Fork and clone this repository. Run the test suite with the `learn` command.
+Fork and clone this repository. Run the test suite to get started. 
 
-Write a method called `reverse_each_word` that takes in a string argument of a sentence and returns that same sentence with each word reversed in place.
+You will write a method called `reverse_each_word` that takes in an argument of a sentence and returns that same sentence with each word reversed in place. 
 
-First solve it using `.each` Then write the same method using `.collect` to see the difference.
+Write a method that takes a sentence and returns it with each word reversed in place.
 
-For example:
+For exampe:
 
 ```ruby
 reverse_each_word("Hello there, and how are you?")
   #=> "olleH ,ereht dna woh era ?uoy"
 ```
 
-**Hint:** *You can't use an enumerator on a string, so how can we turn our string into an array?*
+*Hint*: You can't use an enumerator on a string, so how can we turn our string into an array? 
 
-**Hint:** *How can we reverse each word and return those altered words? Remember that* `.each` *returns the original array but other enumerators don't.*
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/reverse-each-word' title='Reverse Each Word'>Reverse Each Word</a> on Learn.co and start learning to code for free.</p>
+*Hint*: How can we reverse each word and return those altered words? Remember that `.each` returns the original array but other enumerators don't. 
